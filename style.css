@@ -14,30 +14,119 @@ footer{
 grid-area: roda;
  background-color:green;
 }
-justify-content: center;
 
-
-.card
-
-
-
+body{
+display: grid:
+grid-template-area
+"cabe cabe"
+"brac prin"
+"roda roda"
+ grid-template-columns: 150px auto;
+grid-template-rows 200px auto 158px;
+}
+.caixa mae{
+barder: red 2px solid;
+ margin: 20px;
+display: flex;
+flex-wrap: wrap:
+align-items: center;
+ justify-content: center;
+}
+.card{
 width: 300px;
-
 height: 40px;
-
 margin: 38px;
-
-display: flex; align-items: center;
-
-justify-content: center; border-radius: 10px;
-
-
-
-
+display: flex; 
+align-items: center;
+justify-content: center;
+ border-radius: 10px;
 flex-direction: column;
+box-shadow: 3px 6px 9px red;
+ transition: 35;
+}
+.card{
+  width: 300px;
+  height: 40px;
+  margin: 38px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+   border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 3px 6px 9px red;
+   transition: 35;
+  }.card{
+    width: 300px;
+    height: 40px;
+    margin: 38px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+     border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 3px 6px 9px red;
+     transition: 35;
+    }.card{
+      width: 300px;
+      height: 40px;
+      margin: 38px;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+       border-radius: 10px;
+      flex-direction: column;
+      box-shadow: 3px 6px 9px red;
+       transition: 35;
+      }.card{
+        width: 300px;
+        height: 40px;
+        margin: 38px;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+         border-radius: 10px;
+        flex-direction: column;
+        box-shadow: 3px 6px 9px red;
+         transition: 35;
+        }.card{
+          width: 300px;
+          height: 40px;
+          margin: 38px;
+          display: flex; 
+          align-items: center;
+          justify-content: center;
+           border-radius: 10px;
+          flex-direction: column;
+          box-shadow: 3px 6px 9px red;
+           transition: 35;
+          }
+          .card{
+            width: 300px;
+            height: 40px;
+            margin: 38px;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+             border-radius: 10px;
+            flex-direction: column;
+            box-shadow: 3px 6px 9px red;
+             transition: 3s;
+            }
 
-box-shadow: 3px 6px 9px red; transition: 35;
-
-
-
-card ing
+           .card img{
+            width: 258px;
+          }
+        
+             .card a{
+            background-color: black;
+            text-decoration: none;
+            color: white;
+width: 100px;
+ height: 30px;
+text-align: center; 
+padding: 5px;
+border-radius: 20px;
+}
+.card.hover{
+background-color:aquamarine
+}
