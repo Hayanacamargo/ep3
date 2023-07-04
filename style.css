@@ -1,30 +1,33 @@
- header{
-     grid-area: cabe;
-     background-color: blue;
- }
-  aside{
-     grid-area: brac;
-     background-color:pink;
- }
- main{
-    grid-area: prin; 
-    background-color: rebeccapurple;
-}
-footer{
-    grid-area: roda;
-    background-color:green;
+body{
+    background-color: black;
+    background-image: url(fundo.jpeg);
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "sec pri pri"
+        "rod rod rod";
+    grid-gap: 5px;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 1000px auto;
 }
 
-body{
-    display: grid;
-    grid-template-areas:
-     "cabe cabe"
-     "brac prin"
-     "roda roda"
-    grid-template-columns 150px auto;
-    grid-template-rows: 200px auto 158px;
+header{
+    grid-area: cab;
 }
-.caixa mae{
+aside{
+    grid-area: sec;
+}
+main{
+    grid-area: pri;
+}
+footer{
+    grid-area: rod;
+}
+
+header, aside, main, footer{
+    background-color: rgba(116, 93, 93, 0.7);
+}
+.caixa_mae{
     border: red 2px solid;
     margin: 20px;
     display: flex;
@@ -34,41 +37,26 @@ body{
 }
 .card{
     width: 300px;
-    height: 40px;
-    margin: 38px;
-    display: flex; 
+    height: 400px;
+    margin: 30px;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     flex-direction: column;
     box-shadow: 3px 6px 9px red;
-    transition: 35;
+    transition: 3s;
 }
-.card{
-    width: 300px;
-    height: 40px;
-    margin: 38px;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    flex-direction: column;
-    box-shadow: 3px 6px 9px red;
-    transition: 35;
-  }
- .card img{
-    width: 258px;
-  }
-  .card a{
-     background-color: black;
-     text-decoration: none;
-     color: white;
-     width: 100px;
-     height: 30px;
-     text-align: center; 
-      padding: 5px;
-      border-radius: 20px;
+.card img{
+    width: 250px;
 }
-.card.hover{
-       background-color:aquamarine
+.card a{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
 }
