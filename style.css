@@ -1,6 +1,6 @@
 body{
-    background-color: black;
-    background-image: url(fundo.jpeg);
+    background-color: pink ;
+    background-image: url(fundo.jpg);
     display: grid;
     grid-template-areas: 
         "cab cab cab"
@@ -8,7 +8,7 @@ body{
         "rod rod rod";
     grid-gap: 5px;
     grid-template-columns: 20% auto auto;
-    grid-template-rows: auto 2000px auto;
+    grid-template-rows: auto 1000px auto;
 }
 
 header{
@@ -25,61 +25,23 @@ footer{
 }
 
 header, aside, main, footer{
-    background-color: rgba(231, 133, 183, 0.896);
+    background-color: rgba(255, 248, 248, 0.966);
 }
 
 .card{
-    width: 200px;
-    height: 300px;
-    margin: 30px;
+    border: black 2px solid;
+    width: 300px;
+    margin: 10px;
+    height: 500px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    align-items: center;
     flex-direction: column;
-    box-shadow: 3px 6px 9px rgb(204, 255, 0);
-    transition: 3s;
 }
-.row {
 
+.box_mae{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-}
-.card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
- }
-  .card p { color: #3049b8;
-     font-size: 16px;
-    
- }
- .image {
-    float: right;
-    max-width: 64px;
-    max-height: 64px;
- }
- .blue {
-     border-left: 3px solid #4895ff;
-
- }
- 
- .green {
-     border-left: 3px solid #3bb54a;
- 
- }
- 
- .red {
-     border-left: 3px solid #b3404a;
-
- }
- .pink {
-    border-left: 3px solid #e239a1;
-}
-.Purple{
-    border-left: 3px solid #b52eae;
-}
-.Brown{
-    border-left: 3px solid #b52eae;
 }
