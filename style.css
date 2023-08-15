@@ -1,6 +1,6 @@
 body{
-    background-color: pink ;
-    background-image: url(fundo.jpg);
+    background-color: rgb(226, 190, 173);
+    background-image: url(fundo.jpe);
     display: grid;
     grid-template-areas: 
         "cab cab cab"
@@ -9,6 +9,31 @@ body{
     grid-gap: 5px;
     grid-template-columns: 20% auto auto;
     grid-template-rows: auto 1000px auto;
+}
+
+
+header{
+    background-image: linear-gradient(to right, rgb(131, 55, 55) , rgb(231, 170, 39));
+    display: flex;
+    padding: 1rem
+}
+nav li{ 
+    display: inline; 
+    margin: 1rem; /* espaço entre os links */
+}
+nav a{ 
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: red;
+    border: solid yellowgreen; 
+    background: white; 
+    transition: 1s; 
+}
+nav a:hover{ 
+    font-size: 1.1rem;
+    color: white; 
+    border: solid rgb(119, 13, 13); 
+    background: black; 
 }
 
 header{
@@ -25,11 +50,12 @@ footer{
 }
 
 header, aside, main, footer{
-    background-color: rgba(255, 248, 248, 0.966);
+    background-color: rgba(161, 98, 98, 0.966);
+    background-image: url(fundocard.jpeg);
 }
 
 .card{
-    border: black 2px solid;
+    border: rgb(8, 1, 1) 2px solid;
     width: 300px;
     margin: 10px;
     height: 500px;
@@ -37,6 +63,7 @@ header, aside, main, footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(243, 239, 221);
 }
 
 .box_mae{
