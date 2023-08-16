@@ -33,7 +33,7 @@ nav a:hover{
     font-size: 1.1rem;
     color: white; 
     border: solid rgb(119, 13, 13); 
-    background: black; 
+    background: rgb(243, 19, 19); 
 }
 
 header{
@@ -51,7 +51,7 @@ footer{
 
 header, aside, main, footer{
     background-color: rgba(161, 98, 98, 0.966);
-    background-image: url(fundocard.jpeg);
+    background-image: url(fundo.jpeg);
 }
 
 .card{
@@ -63,7 +63,7 @@ header, aside, main, footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(243, 239, 221);
+    background-color: rgb(255, 254, 252);
 }
 
 .box_mae{
@@ -72,3 +72,18 @@ header, aside, main, footer{
     justify-content: center;
     align-items: center;
 }
+.logo{
+    position: absolute;
+    top: 10px
+
+
+}
+header img{
+    width: 150px;
+    height: auto;
+}
+a{
+    color: orange;
+}
+
+
