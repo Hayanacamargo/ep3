@@ -8,7 +8,7 @@ body{
         "rod rod rod";
     grid-gap: 5px;
     grid-template-columns: 20% auto auto;
-    grid-template-rows: auto 1000px auto;
+    grid-template-rows: auto 2200px auto;
 }
 
 
@@ -19,7 +19,7 @@ header{
 }
 nav li{ 
     display: inline; 
-    margin: 1rem; /* espaço entre os links */
+    margin: 1rem; 
 }
 nav a{ 
     text-decoration: none;
@@ -103,8 +103,14 @@ a{
     top: 10px;
 }
 header img{
-    width: 150px;
+    width: 200px;
     height: auto;
 }
+header{
+    display: flex;
+    height: 200px;
+}
+
+
 
 
