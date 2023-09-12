@@ -17,24 +17,7 @@ header{
     display: flex;
     padding: 1rem
 }
-nav li{ 
-    display: inline; 
-    margin: 1rem; 
-}
-nav a{ 
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: red;
-    border: solid yellowgreen; 
-    background: white; 
-    transition: 1s; 
-}
-nav a:hover{ 
-    font-size: 1.1rem;
-    color: white; 
-    border: solid rgb(119, 13, 13); 
-    background: rgb(243, 19, 19); 
-}
+
 
 header{
     grid-area: cab;
@@ -109,6 +92,21 @@ header img{
 header{
     display: flex;
     height: 200px;
+}
+aside{
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 18px;
+    color: rgb(209, 151, 118);
+}
+header h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:  1100;
 }
 
 
