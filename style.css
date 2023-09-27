@@ -1,6 +1,5 @@
 body{
     background-color: rgb(226, 190, 173);
-    background-image: url(fundo.jpe);
     display: grid;
     grid-template-areas: 
         "cab cab cab"
@@ -15,7 +14,8 @@ body{
 header{
     background-image: linear-gradient(to right, rgb(131, 55, 55) , rgb(231, 170, 39));
     display: flex;
-    padding: 1rem
+    padding: 1rem;
+    position: relative;
 }
 
 
@@ -32,13 +32,13 @@ footer{
     grid-area: rod;
 }
 
-header, aside, main, footer{
-    background-color: rgba(161, 98, 98, 0.966);
-    background-image: url(fundo.jpeg);
+header, aside, main, footer{ /* aqui eu modifico apenas a cor da pagina*/
+    background-color: rgba(199, 39, 39, 0.966);
+   
 }
 
 .card{
-    border: rgb(8, 1, 1) 2px solid;
+    border: rgb(252, 239, 199) 2px solid;
     width: 300px;
     margin: 10px;
     height: 500px;
@@ -49,7 +49,7 @@ header, aside, main, footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(255, 254, 252);
+    background-color: rgb(252, 239, 199);
 }
 
 .box_mae{
@@ -59,34 +59,34 @@ header, aside, main, footer{
     align-items: center;
 }
 .logo{
-    position: absolute;
+    position: absolute;/* aqui eu modifico apenas a posicao da logo*/
     top: 10px
 
 
 }
 header img{
-    width: 150px;
+    width: 150px;/* aqui eu modifico apenas a posicao da imagem do header*/
     height: auto;
 }
 a{
-    color: orange;
+    color: orange;/* aqui eu modifico apenas a cor dos links*/
 }
 
 .card img {
-    width: 200px;
+    width: 200px;/* aqui eu modifico apenas a posicao do card*/
     height: 200px;
 }
 
 .card p{
-    text-align: center;
+    text-align: center;/* aqui eu modifico apenas a posicao centralizando*/
 }
 
 .logo{
-    position: absolute;
+    position: absolute;/* aqui eu modifico apenas a posicao*/
     top: 10px;
 }
 header img{
-    width: 200px;
+    width: 200px;/* aqui eu modifico apenas a posicao*/
     height: auto;
 }
 header{
@@ -94,19 +94,54 @@ header{
     height: 200px;
 }
 aside{
-    align-items: center;
+    align-items: center;  
     justify-content: center;
 }
 p{
-    font-size: 18px;
-    color: rgb(209, 151, 118);
+    font-size: 18px; /* aqui eu modifico apenas a posicao do p*/
+    color: rgb(209, 151, 118);/* aqui eu modifico apenas a cor*/
 }
-header h1{
+header h1{ /* aqui eu modifico a posicao do h1*/
     justify-content: center;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     width:  1100;
+    position: absolute;
+    right: 5px;
+    left: 20px;
+}
+nav li{ /* aqui eu modifico apenas a lista de links */
+    display: inline; /* coloca os links do navegador em linha */
+    margin: 1rem; /* espaço entre os links */
+}
+
+nav a{ /* aqui eu modifico apenas as palavras ancoradas */
+    text-decoration: none;/* tira a linha das palavras ancoradas */
+    font-size: 1.5rem;/* aumenta a letra da as palavras ancoradas */
+    color: red;
+    border: solid yellowgreen; /* coloco uma borda ao redor da palavra */
+    background: white; /* fundo do botaoo */
+    transition: 1s; /* tempo de trasicao */
+}
+nav a:hover{ /* aqui eu faco uma animacaozinha dos botoes */
+    font-size: 1.1rem;/* aumenta a letra da as palavras ancoradas */
+    color: white; /* modifico a cor da letra */
+    border: solid rgb(119, 13, 13); /* modifico a cor da borda */
+    background: black; /* modifico a cor do fundo */
+}
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500;
+    position: absolute;
+    right: 5px;
+    left: 20px;
+
+    
+    
 }
 
 
