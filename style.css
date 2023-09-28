@@ -139,11 +139,36 @@ nav{
     position: absolute;
     right: 5px;
     left: 20px;
-
-    
-    
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #f71e1e;
+    border-radius: 5px;
 }
 
+h2 {
+    text-align: center;
+}
 
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
 
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
 
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
